@@ -24,7 +24,7 @@ import backend.springbootbackend.repository.EmployeeRepository;
 
 @CrossOrigin("*")
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/v1/employees")
 public class EmployeeController {
 	
 	@Autowired
