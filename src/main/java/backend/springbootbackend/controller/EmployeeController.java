@@ -22,8 +22,8 @@ import backend.springbootbackend.model.Employee;
 
 import backend.springbootbackend.repository.EmployeeRepository;
 
-@CrossOrigin("*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/v1/employees")
 public class EmployeeController {
 	
