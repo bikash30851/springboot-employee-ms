@@ -21,11 +21,11 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		Employee employee = new Employee();
-		employee.setFirstName("Bikash");
-		employee.setLastName("Adhikari");
-		employee.setEmailId("bikash30851@gmail.com");
-		employeeRepository.save(employee);
+//		Employee employee = new Employee();
+//		employee.setFirstName("Bikash");
+//		employee.setLastName("Adhikari");
+//		employee.setEmailId("bikash30851@gmail.com");
+//		employeeRepository.save(employee);
 		
 	}
 
